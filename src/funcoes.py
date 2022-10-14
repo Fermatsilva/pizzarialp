@@ -1,3 +1,5 @@
+import pandas as pd
+
 def list_ingredientes(tipo, ingredientes):
     print(ingredientes.loc[tipo, :])
         
